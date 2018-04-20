@@ -1,0 +1,219 @@
+/* IMPORTED FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+/* BASE STYLES */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Gaegu', cursive;
+}
+
+textarea {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.newsletter {
+    background-color: white;
+}
+
+form {
+    margin: 0 5%;
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+    color: white;
+    background-color: darkslategrey;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2 {
+    margin-top: 10%;
+}
+
+.header p {
+    margin-bottom: 10%;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    width: 100%;
+}
+
+legend h3 {
+    margin-bottom: 0;
+}
+
+.contact-info {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+.input {
+    display: block;
+    padding-top: 1em;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: grey;
+    text-align: right;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: grey;
+    text-align: right;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: grey;
+    text-align: right;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: grey;
+    text-align: right;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+textarea {
+    background-color: lightgrey;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2em;
+}
+
+button {
+    width: 100%;
+    padding: 0.75em;
+    background-color: slategrey;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5em;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 50%;
+    font-style: italic;
+    color: lightgray;
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        background-color: black;
+        margin: 0;
+    }
+    .newsletter {
+        margin: 0 10%;
+        background-color: white;
+    }
+    form {
+        margin: 0 20%;
+        background-color: white;
+    }
+    .title {
+        text-align: center;
+        margin-top: 0;
+        padding: 20px;
+        color: white;
+        background-color: darkslategrey;
+    }
+    .header {
+        text-align: center;
+    }
+    .header h2 {
+        margin-top: 10%;
+    }
+    .header p {
+        margin-bottom: 5%;
+    }
+    label {
+        display: inline-block;
+        width: 49.5%;
+    }
+    .contact-info {
+        display: inline-block;
+        width: 49%;
+        padding: 0;
+
+    }
+    .input {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: left;
+    }
+    ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: grey;
+        text-align: right;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: grey;
+        text-align: right;
+    }
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        color: grey;
+        text-align: right;
+    }
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: grey;
+        text-align: right;
+    }
+    textarea {
+        background-color: lightgrey;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 2em;
+    }
+    button {
+        width: 100%;
+        padding: 0.75em 6em;
+        background-color: slategrey;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-size: 1.5em;
+    }
+}
