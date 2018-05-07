@@ -18,6 +18,20 @@ body {
     margin: 0;
 }
 
+.header p {
+    margin-top: 0;
+}
+
+.thick-line {
+    background-color: black;
+    margin-bottom: 1.5px;
+}
+
+.thin-line {
+    background-color: black;
+    margin-top: 0;
+}
+
 .newsletter {
     background-color: white;
 }
@@ -40,11 +54,12 @@ form {
 }
 
 .header h2 {
-    margin-top: 10%;
+    margin-bottom: 0;
 }
 
 .header p {
     margin-bottom: 10%;
+    color:  lightgrey;
 }
 
 fieldset {
@@ -70,6 +85,10 @@ legend h3 {
 .input {
     display: block;
     padding-top: 1em;
+}
+
+.input #code {
+    width: 50%;
 }
 
 ::-webkit-input-placeholder {
@@ -155,13 +174,11 @@ input[type="submit"] {
     background-color: cornsilk;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     body {
-        background-color: black;
         margin: 0;
     }
     .newsletter {
-        margin: 0 10%;
         background-color: white;
     }
     form {
@@ -171,7 +188,6 @@ input[type="submit"] {
     .title {
         text-align: center;
         margin-top: 0;
-        padding: 20px;
         color: white;
         background-color: darkslategrey;
     }
@@ -179,24 +195,27 @@ input[type="submit"] {
         text-align: center;
     }
     .header h2 {
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .header p {
         margin-bottom: 5%;
     }
     label {
         display: inline-block;
-        width: 49.5%;
+        width: 15%;
     }
     .contact-info {
         display: inline-block;
-        width: 49%;
+        width: 84%;
         padding: 0;
     }
     .input {
         padding-top: 1em;
         padding-bottom: 1em;
         text-align: left;
+    }
+    .input #code {
+        width: 20%;
     }
     ::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
