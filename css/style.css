@@ -23,11 +23,13 @@ body {
 }
 
 .thick-line {
+    height: 5px;
     background-color: black;
     margin-bottom: 1.5px;
 }
 
 .thin-line {
+    height: 3px;
     background-color: black;
     margin-top: 0;
 }
@@ -59,7 +61,7 @@ form {
 
 .header p {
     margin-bottom: 10%;
-    color:  lightgrey;
+    color: lightgrey;
 }
 
 fieldset {
@@ -203,6 +205,10 @@ input[type="submit"] {
     label {
         display: inline-block;
         width: 15%;
+    }
+    .newsletter-label {
+        display: inline-block;
+        width: 50%;
     }
     .contact-info {
         display: inline-block;
